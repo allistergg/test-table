@@ -1,9 +1,6 @@
 import { FETCH_PERSONS_REQUEST, FETCH_PERSONS_SUCCESS, FETCH_PERSONS_ERROR } from './actions';
 import { fetchPersonsRequest, fetchPersonsSuccess, fetchPersonsError, fetchPersons} from './actions'
 import { Person } from './App';
-import configureMockStore from 'redux-mock-store'
-import thunk from 'redux-thunk'
-import fetchMock from 'fetch-mock';
 
 
 
